@@ -17,7 +17,9 @@ public class FirstAppApplication {
     @RequestMapping("/")
     String home() {
         int num = 0; 
+        num++; 
         return "Hello World!";
+        
     }
 
     public static void main(String[] args) {
