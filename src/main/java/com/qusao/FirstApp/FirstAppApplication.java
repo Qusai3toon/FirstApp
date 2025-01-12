@@ -16,6 +16,7 @@ public class FirstAppApplication {
 
     @RequestMapping("/")
     String home() {
+        int num = 0; 
         return "Hello World!";
     }
 
